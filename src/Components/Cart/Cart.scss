@@ -1,0 +1,239 @@
+.Cart {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #141414;
+}
+
+    .CartWrap {
+        width: 100%;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .Cart-Header {
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 70px;
+        }
+
+            .Cart-HeaderTitle {
+                font-size: 22px;
+                font-weight: 600;
+                margin-right: 60px;
+            }
+
+            .Cart-HeaderShopLink {
+                font-size: 10px;
+                font-weight: 400;
+            }
+                .Cart-HeaderShopLink:hover {
+                    color: #D32E2E;
+                }
+
+        .cart-digitalcart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 70px;
+        }
+
+            .cart-digitalcart-Title {
+                font-size: 14px;
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+
+                .cart-digitalcart-Text {
+                    font-size: 12px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                }
+
+                    .cart-digitalcart-Button {
+                        width: 140px;
+                        height: 40px;
+                        font-size: 10px;
+                        font-weight: 500;
+                        background-color: #141414;
+                        color: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        white-space: nowrap;
+                        margin-top: 20px;
+                        margin-bottom: 30px;
+                        cursor: pointer;
+                    }
+
+                        .cart-digitalcart-ShopLink {
+                            font-size: 12px;
+                            font-weight: 500;
+                            color: #D32E2E;
+                            text-decoration: underline;
+                        }
+                            .cart-digitalcart-ShopLink:hover {
+                                color: rgb(167, 36, 36);
+                            }
+
+        .cart-infosectionRow {
+            width: 80%;
+            align-self: flex-start;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+            .cart-infosection {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+                .cart-infosection-Title {
+                    font-size: 12px;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+
+                    .cart-infosection-Info {
+                        font-size: 14px;
+                        font-weight: 400;
+                        margin-bottom: 5px;
+                    }
+                        .Underline {
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                            .Underline:hover {
+                                color: #D32E2E;
+                            }
+
+                    .cart-infosection-Link {
+                        font-size: 12px;
+                        font-weight: 500;
+                        margin-bottom: 9px;
+                        cursor: pointer;
+                    }   
+                        .cart-infosection-Link:hover {
+                            color: #D32E2E;
+                        }
+
+                    .cart-infosection-paymentMethodWrap {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                      .cart-infosection-paymentMethod {
+                            width: 35px;
+                            height: 25px;
+                            margin: 0 2px;
+                        }  
+
+                            .paymentIcon1 {
+                                background: url('../../Assets/Icons&Logos/Payments/visa.svg');
+                                background-position: center;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                            .paymentIcon2 {
+                                background: url('../../Assets/Icons&Logos/Payments/discover.svg');
+                                background-position: center;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                            .paymentIcon3 {
+                                background: url('../../Assets/Icons&Logos/Payments/amex.svg');
+                                background-position: center;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                            .paymentIcon4 {
+                                background: url('../../Assets/Icons&Logos/Payments/americanExpress.svg');
+                                background-position: center;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                            .paymentIcon5 {
+                                background: url('../../Assets/Icons&Logos/Payments/paypal.svg');
+                                background-position: center;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1920px){
+  .CartWrap {
+      max-width: 1700px;
+  }
+}
+
+@media screen and (max-width: 1750px){
+  .CartWrap {
+    max-width: 1500px;
+  }
+}
+
+@media screen and (max-width: 1550px){
+  .CartWrap {
+      max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  .CartWrap {
+      max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 900px){
+    .cart-infosectionRow {
+        flex-direction: column;
+    }
+    .cart-digitalcart {
+        align-self: center;
+    }
+    .cart-infosection {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .CartWrap {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 20px;
+    }
+    .Cart-Header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Cart-HeaderTitle  {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}

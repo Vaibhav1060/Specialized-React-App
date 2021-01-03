@@ -1,0 +1,53 @@
+.inside-career {
+    width: 100%;
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .inside-career-content {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+        .inside-career-title {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+            .inside-career-text {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                margin-bottom: 30px;
+            }   
+
+                .inside-career-button {
+                    padding: 15px 20px;
+                    font-size: 14px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #141414;
+                    color: #FFF;
+                    align-self: flex-start;
+                    cursor: pointer;
+                }   
+                    .inside-career-button:hover {
+                        background-color: #2e2e2e;
+                    }
+
+
+@media screen and (max-width: 600px){
+    .inside-career-content {
+        width: 100%;
+    }
+    .inside-career-button {
+        align-self: center;
+    }
+}

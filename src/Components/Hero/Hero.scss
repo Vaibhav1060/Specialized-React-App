@@ -1,0 +1,89 @@
+.hero{
+    background:url("../../Assets/Images/Landing/LandingHero.jpg");
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+}
+
+.hero-container{
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     justify-content: space-between;
+     color: white;
+     padding:0rem 0rem 0rem 5rem;
+   
+}
+
+.hero-main-text{
+    font-size: 4rem;
+    font-weight: 1200;
+    line-height: 1.8;
+  
+}
+
+.hero-main-textspan{
+    display: block;
+    line-height: 0.4;
+    margin-bottom: 2rem;
+}
+
+.hero-main-text-para{
+    
+    margin-bottom: 2.5rem;
+}
+
+.hero-primary-text{
+    font-weight: 900;
+    line-height: 1.8;
+    padding-bottom: 3rem;
+
+}
+
+.hero-main-text-para-first{
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    
+}
+
+.hero-main-link{
+    text-decoration: none;
+    background-color: rgb(56, 56, 56);
+    padding:0.5rem 1rem;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border:1px solid white;
+    
+}
+
+.hero-main-link:hover{
+    background: transparent;
+  
+}
+
+@media screen and (max-width:900px){
+    .hero-main-text{
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    
+    
+    }
+
+    .hero-main-textspan{
+        
+      line-height: 1;
+    }
+
+    .hero-primary-text{
+        font-size: 1rem;
+    }
+
+    .hero-main-text-para,
+    .hero-main-text-para-first{
+        display:none;
+    }
+
+   
+}

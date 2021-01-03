@@ -1,0 +1,43 @@
+.card-container{
+    width:100%;
+
+}
+
+.card-flex{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.section-title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin:2rem;
+}
+
+
+
+
+@media screen and (max-width:650px){
+    .card-flex{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-left: 3rem;
+    
+  
+  
+    }
+
+    .card-container{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;    
+    }
+} 

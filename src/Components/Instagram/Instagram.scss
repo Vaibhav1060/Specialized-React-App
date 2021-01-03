@@ -1,0 +1,133 @@
+.instagram{
+    padding:3rem 0rem;
+    background-color: #fff;
+}
+.instagram-account-image{
+    background-image: url("../../Assets/Images/Landing/IGLogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:8rem;
+    height:8rem;
+    border-radius: 50%;
+    display:inline-block;
+}
+
+.instagram-name{
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.instagram-account{
+    display:flex;
+    align-items: center;
+    margin-left:4rem;
+}
+
+.instagram-verification{
+    margin-left: 1rem;
+}
+
+.instagram-info{
+  display: flex;
+  align-items: center;
+}
+
+.instagram-title{
+    margin: 1rem 0rem 2rem 5rem;
+    font-size: 1.5rem;
+
+}
+
+
+
+.instagram-image1{
+    background:url("../../Assets/Images/Landing/IG1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+
+.instagram-image2{
+    background:url("../../Assets/Images/Landing/IG2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.instagram-image3{
+    background:url("../../Assets/Images/Landing/IG3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.instagram-image4{
+    background:url("../../Assets/Images/Landing/IG4.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.instagram-image5{
+    background:url("../../Assets/Images/Landing/IG5.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.instagram-image6{
+    background:url("../../Assets/Images/Landing/IG6.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.instagram-images-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:2.5rem;
+    padding:2rem 5rem 2rem 5rem;
+  
+    
+
+}
+
+.instagram-image{
+    width:100%;
+    height:50vh;
+    margin:2rem 0rem;
+}
+
+
+
+@media screen and (max-width:900px){
+    .instagram-images-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:2.5rem;
+        padding:2rem 5rem 2rem 5rem;
+      
+        
+    
+    }
+
+    .instagram-title{
+        text-align:center;
+        margin: 1rem 0rem 3rem 0rem;
+    }
+}
+
+@media screen and (max-width:650px){
+    .instagram-images-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap:2.5rem;
+        padding:2rem 5rem 2rem 5rem;
+      
+        
+    
+    }
+
+    .instagram-title{
+        text-align:center;
+        margin: 1rem 0rem 3rem 0rem;
+    }
+}
+

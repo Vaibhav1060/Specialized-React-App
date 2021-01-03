@@ -1,0 +1,119 @@
+.explore {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(9, 9, 9);
+    color: #FFF;
+    
+  
+     
+   
+    
+
+}
+
+.explore-title{
+    padding:3rem 0rem 3rem 2rem;
+    font-size: 1.5rem;
+}
+   
+
+.explore-wrap {
+       
+    height: 70vh;
+ 
+display: flex;
+ align-items: center;
+ justify-content: center;
+padding:0rem 2rem;
+       
+    }
+
+.explore-window {
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+ }
+            .explore-window1{
+                background: url('../../Assets/Images/Landing/TrailBGCategoires.jpg');
+                   background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+               .explore-window2 {
+                background: url('../../Assets/Images/Landing/DownHillBGCategories.jpg');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .explore-window3 {
+                background: url('../../Assets/Images/Landing/SWorksBGCategories.jpg');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+    .explore-innerwindow {
+        width: 100%;
+                height: 100%;
+        position: absolute;
+        background-color: #000;
+        opacity: .6;
+                transition: opacity .2s ease-in;
+                cursor: pointer;
+            }
+                .explore-innerwindow:hover {
+                    opacity: 0;
+                }
+
+            .explore-innerwindow-text {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 2.5vw;
+                white-space: nowrap;
+                font-weight: 900;
+                color: #FFF;
+            }
+
+
+@media screen and (max-width:650px){
+    .explore{
+        height:180vh;
+    }
+    .explore-wrap{
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: center;
+        align-items: center;
+        height:150vh;
+    }
+
+    .explore-window{
+        width:80%;
+        margin-bottom: 2.5rem;
+    }
+
+    .explore-title{
+     text-align: center;
+     padding:3rem 0rem;
+        font-size: 1.5rem;
+    }
+
+    .explore-innerwindow-text {
+       
+        font-size: 3.5vw;
+    }
+
+      
+
+   
+}
+
+
+
+        
+
+

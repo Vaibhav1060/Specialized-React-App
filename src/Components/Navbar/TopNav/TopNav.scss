@@ -1,0 +1,82 @@
+.topnav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0rem 1rem;
+    height:6vh;
+    background-color: black;
+    font-size: 0.7rem;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    position:relative;
+}
+
+
+
+.topnav-col2{
+    display:flex;
+    align-items: center;
+ 
+
+}
+
+.topnav-col-retailer>p{
+    padding: 0rem 0rem 0rem 0.5rem;
+}
+
+.topnav-col-language>p{
+    padding: 0rem 0rem 0rem 0.5rem;
+}
+
+.topnav-col2>div{
+    margin:0rem 1rem;
+}
+
+.topnav-col-language,
+.topnav-col-retailer{
+    display:flex;
+    align-items:center;
+}
+
+.topnav-col-language-image{
+    background: url("../../../Assets/Icons&Logos/FullNav/AmericanFlagIcon.svg");
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:2rem;
+    height:1.5rem;
+}
+
+.topnav-col-register-btn{
+   background-color:grey;
+  padding:0.45rem 2rem 0.45rem 2rem;
+  border: none;
+  color: white;
+  letter-spacing: 0.1rem;
+  height:100%;
+  border:0;
+}
+
+.topnav-retailer-link{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.topnav-retailer-text{
+    margin-left: 0.3rem;
+}
+
+@media screen and (max-width:1000px){
+
+    .topnav{
+        justify-content: center;
+    }
+    .topnav-col2{
+        display:none;
+        
+    }
+}

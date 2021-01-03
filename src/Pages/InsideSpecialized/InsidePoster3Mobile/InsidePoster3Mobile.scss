@@ -1,0 +1,31 @@
+.inside-poster3-mobile {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 40px;
+}
+
+    .inside-poster3-mobile-title {
+        font-size: 24px;
+        font-weight: 600;   
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+        .inside-poster3-mobile-text {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+
+
+@media screen and (max-width: 850px){
+    .inside-poster3-mobile {
+        display: flex;
+    }
+    .inside-poster3-mobile-title {
+        font-size: 20px;
+    }
+}
